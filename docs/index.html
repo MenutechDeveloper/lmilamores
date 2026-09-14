@@ -21,6 +21,10 @@
 </head>
 <body>
 
+  <!-- Elementos decorativos asomándose con renderizado forzado -->
+  <img src="assets/img/chile.png" alt="" class="side-decor left-peeking" />
+  <img src="assets/img/mariachi.png" alt="" class="side-decor right-peeking" />
+
   <div class="promo-bar">
     <span class="promo-icon">✦</span>
     <span>5% OFF YOUR FIRST ORDER — Come taste the tradition</span>
@@ -102,66 +106,65 @@
   </section>
 
   <section class="gallery" id="gallery">
-  <div class="gallery-header">
-    <p class="section-label">Our Kitchen</p>
-    <h2 class="section-title">A Taste of Mexico</h2>
-  </div>
-
-  <div class="carousel-wrapper">
-    <div class="carousel-track" id="carouselTrack">
-
-      <div class="carousel-slide" data-index="0">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010078/IMG-20260430-WA0046_rb7jln.jpg" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
-      <div class="carousel-slide" data-index="1">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010078/IMG-20260430-WA0043_sixd3a.jpg" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
-      <div class="carousel-slide" data-index="2">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010079/IMG-20260430-WA0042_sgov4e.jpg" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
-      <div class="carousel-slide" data-index="3">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010079/chile_relleno_ejejri.png" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
-      <div class="carousel-slide" data-index="4">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010080/671766252_122107109360880935_2632384418470316629_n_bcowra.jpg" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
-      <div class="carousel-slide" data-index="5">
-        <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010290/Dise%C3%B1o_sin_t%C3%ADtulo_ty1wzy.jpg" alt="" />
-        <span class="slide-label"></span>
-      </div>
-
+    <div class="gallery-header">
+      <p class="section-label">Our Kitchen</p>
+      <h2 class="section-title">A Taste of Mexico</h2>
     </div>
 
-    <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous image">&#8249;</button>
-    <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next image">&#8250;</button>
+    <div class="carousel-wrapper">
+      <div class="carousel-track" id="carouselTrack">
 
-    <div class="carousel-dots" id="carouselDots"></div>
-  </div>
+        <div class="carousel-slide" data-index="0">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010078/IMG-20260430-WA0046_rb7jln.jpg" alt="" />
+          <span class="slide-label"></span>
+        </div>
 
-  <div class="lightbox" id="lightbox">
-    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
-    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+        <div class="carousel-slide" data-index="1">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010078/IMG-20260430-WA0043_sixd3a.jpg" alt="" />
+          <span class="slide-label"></span>
+        </div>
 
-    <div class="lightbox-img-wrap">
-      <img src="" alt="" id="lightboxImg" />
-      <span class="lightbox-caption" id="lightboxCaption"></span>
+        <div class="carousel-slide" data-index="2">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010079/IMG-20260430-WA0042_sgov4e.jpg" alt="" />
+          <span class="slide-label"></span>
+        </div>
+
+        <div class="carousel-slide" data-index="3">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010079/chile_relleno_ejejri.png" alt="" />
+          <span class="slide-label"></span>
+        </div>
+
+        <div class="carousel-slide" data-index="4">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010080/671766252_122107109360880935_2632384418470316629_n_bcowra.jpg" alt="" />
+          <span class="slide-label"></span>
+        </div>
+
+        <div class="carousel-slide" data-index="5">
+          <img src="https://res.cloudinary.com/dzklt0a5u/image/upload/v1783010290/Dise%C3%B1o_sin_t%C3%ADtulo_ty1wzy.jpg" alt="" />
+          <span class="slide-label"></span>
+        </div>
+
+      </div>
+
+      <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous image">&#8249;</button>
+      <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next image">&#8250;</button>
+
+      <div class="carousel-dots" id="carouselDots"></div>
     </div>
 
-    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
-  </div>
-</section>
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
 
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" />
+        <span class="lightbox-caption" id="lightboxCaption"></span>
+      </div>
+
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+    </div>
   </section>
+
 <!-- MENUTECH AUTO GALLERY -->
 <section class="menu-gallery">
   <menutech-gallery domain="lmilamoresrestaurant.com"></menutech-gallery>
@@ -244,10 +247,6 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             <span>Instagram</span>
           </a>
-          <a href="https://www.tiktok.com/@l_milamores_mexrest" target="_blank" rel="noopener" class="social-btn" aria-label="TikTok">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.19 8.19 0 0 0 4.78 1.52V6.77a4.85 4.85 0 0 1-1.01-.08z"/></svg>
-            <span>TikTok</span>
-          </a>
         </div>
       </div>
     </div>
@@ -259,7 +258,7 @@
       <div class="footer-info">
         <p class="footer-slogan">El auténtico sabor mexicano que te hace sentir vivo</p>
         <p>518 S Lake St, Aurora, IL 60506 &nbsp;|&nbsp; <a href="tel:6308968727">630-896-8727</a></p>
-        <p class="footer-copy">&copy; 2026 L Mil Amores Restaurant. All rights reserved.</p>
+        <p class="footer-copy"></p>
       </div>
       <div class="footer-powered">
         <img src="assets/img/menutechlogo.png" alt="Menutech" class="menutech-logo" />
@@ -352,6 +351,12 @@
     window.addEventListener('scroll', () => {
       header.classList.toggle('scrolled', window.scrollY > 60);
     });
+
+    const currentYear = new Date().getFullYear();
+    const footerCopy = document.querySelector('.footer-copy');
+    if (footerCopy) {
+      footerCopy.innerHTML = `&copy; 2015 - ${currentYear} Powered by Menutech`;
+    }
   </script>
   
   <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async></script>

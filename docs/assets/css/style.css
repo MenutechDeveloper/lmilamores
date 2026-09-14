@@ -52,6 +52,28 @@ a {
   text-decoration: none;
 }
 
+/* Decoraciones laterales GARANTIZADAS en pantalla */
+.side-decor {
+  position: fixed;
+  top: 50%;
+  width: 220px; /* Tamaño grande para que destaquen sin importar el crop transparente */
+  z-index: 2147483647; /* Máximo z-index soportado para sobrepasar cualquier elemento */
+  pointer-events: none;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.9));
+  /* translateZ fuerza a que se rendericen por encima del hero video y capas webkit */
+  transform: translateY(-50%) translateZ(100px);
+  -webkit-transform: translateY(-50%) translateZ(100px);
+  will-change: transform;
+}
+
+.side-decor.left-peeking {
+  left: -15px; /* Valor seguro para garantizar que asoman en todas las pantallas */
+}
+
+.side-decor.right-peeking {
+  right: -15px; /* Valor seguro para garantizar que asoman en todas las pantallas */
+}
+
 .promo-bar {
   background: var(--copper);
   color: var(--white);
@@ -964,6 +986,16 @@ a {
 }
 
 @media (max-width: 768px) {
+  .side-decor {
+    width: 140px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
+  }
+  .side-decor.left-peeking {
+    left: -10px; 
+  }
+  .side-decor.right-peeking {
+    right: -10px;
+  }
+
   .header-inner {
     padding: 14px 22px;
   }

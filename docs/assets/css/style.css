@@ -56,7 +56,7 @@ a {
 .side-decor {
   position: fixed;
   top: 50%;
-  width: 190px; /* Tamaño grande para que destaquen sin importar el crop transparente */
+  width: 220px; /* Tamaño grande para que destaquen sin importar el crop transparente */
   z-index: 2147483647; /* Máximo z-index soportado para sobrepasar cualquier elemento */
   pointer-events: none;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.9));
@@ -987,13 +987,13 @@ a {
 
 @media (max-width: 768px) {
   .side-decor {
-    width: 90px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
+    width: 70px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
   }
   .side-decor.left-peeking {
-    left: -10px; 
+    left: -5px; 
   }
   .side-decor.right-peeking {
-    right: -10px;
+    right: -5px;
   }
 
   .header-inner {

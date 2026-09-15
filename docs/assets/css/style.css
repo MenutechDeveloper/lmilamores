@@ -67,11 +67,11 @@ a {
 }
 
 .side-decor.left-peeking {
-  left: -5px; /* Valor seguro para garantizar que asoman en todas las pantallas */
+  left: 15px; /* Valor seguro para garantizar que asoman en todas las pantallas */
 }
 
 .side-decor.right-peeking {
-  right: -5px; /* Valor seguro para garantizar que asoman en todas las pantallas */
+  right: 15px; /* Valor seguro para garantizar que asoman en todas las pantallas */
 }
 
 .promo-bar {
@@ -990,10 +990,10 @@ a {
     width: 70px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
   }
   .side-decor.left-peeking {
-    left: -5px; 
+    left: 15px; 
   }
   .side-decor.right-peeking {
-    right: -5px;
+    right: 15px;
   }
 
   .header-inner {

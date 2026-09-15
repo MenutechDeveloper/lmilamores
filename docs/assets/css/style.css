@@ -987,7 +987,7 @@ a {
 
 @media (max-width: 768px) {
   .side-decor {
-    width: 140px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
+    width: 90px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
   }
   .side-decor.left-peeking {
     left: -10px; 

@@ -990,10 +990,10 @@ a {
     width: 80px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
   }
   .side-decor.left-peeking {
-    left: -30px; 
+    left: -35px; 
   }
   .side-decor.right-peeking {
-    right: -30px;
+    right: -35px;
   }
 
   .header-inner {

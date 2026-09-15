@@ -987,13 +987,13 @@ a {
 
 @media (max-width: 768px) {
   .side-decor {
-    width: 70px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
+    width: 80px; /* Ajustado a pantallas pequeñas asegurando visibilidad */
   }
   .side-decor.left-peeking {
-    left: -22px; 
+    left: -30px; 
   }
   .side-decor.right-peeking {
-    right: -22px;
+    right: -30px;
   }
 
   .header-inner {
